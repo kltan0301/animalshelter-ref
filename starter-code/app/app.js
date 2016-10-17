@@ -4,6 +4,7 @@ var debug = require("debug");
 var logger = require('morgan');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
+var expressLayouts = require('express-ejs-layouts');
 var app = express();
 var router = express.Router()
 
