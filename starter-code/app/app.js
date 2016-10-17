@@ -14,6 +14,7 @@ moongoose.connect('mongodb://localhost/animalshelter');
 app.use(logger('dev'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set('views', path.join(__dirname, 'views'));
+app.use(expressLayouts)
 app.engine('ejs', require('ejs').renderFile);
 app.set('view engine', 'ejs');
 
