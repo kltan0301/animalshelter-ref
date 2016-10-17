@@ -14,8 +14,7 @@
     "ejs": "~2.2.3",
     "method-override": "^2.3.4",
     "mongoose": "^4.0.7",
-    "morgan": "~1.6.1",
-    "express-ejs-layouts" : "1.1.0"
+    "morgan": "~1.6.1"
   },
   "author": "",
   "license": "ISC"
