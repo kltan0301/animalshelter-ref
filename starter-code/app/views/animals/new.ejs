@@ -1,0 +1,23 @@
+<fieldset>
+  <legend>Add an animal</legend>
+  <form method="POST" action="/animals">
+    <div class="form-group col-md-4">
+      <input name="animal[breed]" class="form-control" placeholder="Breed"/>
+    </div>
+    <div class="form-group col-md-4">
+      <input name="animal[family]"  class="form-control" placeholder="Family"/>
+    </div>
+    <div class="form-group col-md-4">
+      <input name="animal[name]"  class="form-control" placeholder="Name"/>
+    </div>
+    <div class="form-group col-md-4">
+      <input name="animal[gender]"  class="form-control" placeholder="Gender(M F)"/>
+    </div>
+    <div class="form-group col-md-4">
+      <input type="date" name="animal[dob]"  class="form-control" placeholder="Birthdate"/>
+    </div>
+    <div class="form-group col-md-4">
+      <button class="btn btn-success col-md-12">Add an Animal</button>
+    </div>
+  </form>
+</fieldset>
