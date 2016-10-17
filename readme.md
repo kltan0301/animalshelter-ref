@@ -1,18 +1,6 @@
----
-title: Mongoose Creation, Updates, & Queries Lab
-type: lab
-duration: "1:25"
-creator:
-    name: Gerry Mathe
-    city: London
-competencies: Server Applications
----
-
 # Mongoose Creation, Updates, & Queries Lab
 
 ## Introduction
-
-> ***Note:*** _This can be a pair programming activity or done independently._
 
 Imagine you work for a pet shelter, and you've been asked to create an MVP for a web application that will allow you to keep track of adoptions, abandonments, and drop-offs.  Using Node, Express, MongoDB, and Mongoose, build a small app that will allow a user to manipulate pet records.
 
